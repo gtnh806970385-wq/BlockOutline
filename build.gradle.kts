@@ -1,4 +1,4 @@
-﻿plugins {
+plugins {
     id("java-library")
     id("com.gtnewhorizons.retrofuturagradle") version "2.0.2"
 }
@@ -12,10 +12,6 @@ val modId = "blockoutline"
 val modName = "BlockOutline"
 val modGroup = "com.blockoutline"
 val modVersion = "1.0.0"
-
-dependencies {
-    implementation(files("D:/GTNH/GT New Horizons 2.9.0-beta-1/.minecraft/mods/+unimixins-all-1.7.10-0.3.1.jar"))
-}
 
 tasks {
     build {

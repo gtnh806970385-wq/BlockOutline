@@ -1,9 +1,13 @@
-﻿# Build
-build/
+# Build and runtime output
 .gradle/
+build/
+run/
+logs/
+crash-reports/
 *.class
 *.jar
 *.war
+*.log
 
 # IDE
 .idea/
@@ -16,7 +20,3 @@ build/
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-logs/
-*.log
